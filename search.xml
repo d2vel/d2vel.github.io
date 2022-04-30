@@ -39,10 +39,10 @@
   <entry>
     <title>second</title>
     <url>/2022/04/30/second/</url>
-    <content><![CDATA[<p>ㅋㅋㅋㅋ 이거는 두 번째 그거 입니다. </p>
+    <content><![CDATA[<p>ㅋㅋㅋㅋ 이거는 두 번째 그거 입니다.</p>
 <img src="/2022/04/30/second/example.jpeg" class="" title="This is an example image">
 
-<p><img src="/2022-04-30T091154.png" alt="2022-04-30T091154"></p>
+<img src="/2022/04/30/second/2022-04-30T091154.png" class="" title="This is an example image">
 ]]></content>
       <categories>
         <category>Blog</category>
