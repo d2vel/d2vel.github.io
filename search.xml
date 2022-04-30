@@ -127,4 +127,20 @@
         <tag>AWS</tag>
       </tags>
   </entry>
+  <entry>
+    <title>MSA 도입하지 마라</title>
+    <url>/2022/04/30/MSA%20%EB%8F%84%EC%9E%85%ED%95%98%EC%A7%80%20%EB%A7%88%EB%9D%BC/</url>
+    <content><![CDATA[<img src="/2022/04/30/MSA%20%EB%8F%84%EC%9E%85%ED%95%98%EC%A7%80%20%EB%A7%88%EB%9D%BC/2022-04-30T204459.png" class="" title="MSA">
+
+<p>이런 이야기를 나도 할 줄은 몰랐다. 살아가다 보면 왠지 어렵지만 해야 될 것 같은 일들이 있다. 그거 안하면 다른 사람들 보다 뒤로 쳐지는 것 같고 그래서 꼭 해야 하는데 너무 어렵고 그리고 어렵게 따라 했는데 나에게 그렇게 큰 영향이 없는 일….</p>
+<p>지금 이야기를 하려고 하는 것이 그런 것 같다. 이제 최근도 아닌 이야기가 되었지만 아키덱쳐 세계에서 큰 화두였다. 그리고 많은 기술력 있는 기업들은 MS를 도입하여 많은 기술적인 장점들을 취했다. 대표적인 기업들이 아마도 Netflix&#x2F;amazon일 것 같다. 그리고 더 찾아보면 있을 것 같기도 하다. pivotal?? </p>
+<p>그리고 국내기업들도 이를 도입하고 있고, 이를 도입해서 잘 활용도 하고 있으며 지속적으로 도입을 검토하고 시도하고 있는 기업들이 많이 존제 한다. </p>
+<h2 id="MSa란-무엇인가"><a href="#MSa란-무엇인가" class="headerlink" title="MSa란 무엇인가?"></a>MSa란 무엇인가?</h2><h2 id="MSa를-도입하기-전에-고려해-보아야-하는-것"><a href="#MSa를-도입하기-전에-고려해-보아야-하는-것" class="headerlink" title="MSa를 도입하기 전에 고려해 보아야 하는 것"></a>MSa를 도입하기 전에 고려해 보아야 하는 것</h2><h2 id="살펴볼-수-있는-다른-대안들"><a href="#살펴볼-수-있는-다른-대안들" class="headerlink" title="살펴볼 수 있는 다른 대안들"></a>살펴볼 수 있는 다른 대안들</h2><h2 id="왜-많은-기업들이-실패하나"><a href="#왜-많은-기업들이-실패하나" class="headerlink" title="왜 많은 기업들이 실패하나?"></a>왜 많은 기업들이 실패하나?</h2><h2 id="그럼-어떻게-접근해야-하는가"><a href="#그럼-어떻게-접근해야-하는가" class="headerlink" title="그럼 어떻게 접근해야 하는가?"></a>그럼 어떻게 접근해야 하는가?</h2>]]></content>
+      <categories>
+        <category>Architecure</category>
+      </categories>
+      <tags>
+        <tag>MSA</tag>
+      </tags>
+  </entry>
 </search>
