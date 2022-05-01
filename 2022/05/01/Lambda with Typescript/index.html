@@ -20,17 +20,22 @@
     var CONFIG = {"hostname":"d2vel.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="건강하고 똑똑하게">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Tandem6">
-<meta property="og:url" content="https://d2vel.github.io/tags/Hexo/index.html">
+  <meta name="description" content="아 배타지만 이제 들어왔다. SAM에서 Lambda Typescript를 지원한다. 이것을 한번 번역해보겠습니다. https:&#x2F;&#x2F;aws.amazon.com&#x2F;blogs&#x2F;compute&#x2F;building-typescript-projects-with-aws-sam-cli&#x2F;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Lambda with Typescript">
+<meta property="og:url" content="https://d2vel.github.io/2022/05/01/Lambda%20with%20Typescript/index.html">
 <meta property="og:site_name" content="Tandem6">
-<meta property="og:description" content="건강하고 똑똑하게">
+<meta property="og:description" content="아 배타지만 이제 들어왔다. SAM에서 Lambda Typescript를 지원한다. 이것을 한번 번역해보겠습니다. https:&#x2F;&#x2F;aws.amazon.com&#x2F;blogs&#x2F;compute&#x2F;building-typescript-projects-with-aws-sam-cli&#x2F;">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2022-05-01T04:52:21.000Z">
+<meta property="article:modified_time" content="2022-05-01T13:53:11.393Z">
 <meta property="article:author" content="Kim Jong IL">
+<meta property="article:tag" content="Serverless">
+<meta property="article:tag" content="Lambda">
+<meta property="article:tag" content="AWS">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://d2vel.github.io/tags/Hexo/">
+<link rel="canonical" href="https://d2vel.github.io/2022/05/01/Lambda%20with%20Typescript/">
 
 
 <script id="page-configurations">
@@ -38,12 +43,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'en'
   };
 </script>
 
-  <title>Tag: Hexo | Tandem6</title>
+  <title>Lambda with Typescript | Tandem6</title>
   
 
 
@@ -186,71 +191,92 @@
         <div class="content-wrap">
           
 
-          <div class="content tag">
+          <div class="content post posts-expand">
             
 
+    
   
   
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <h2 class="collection-header">Hexo
-          <small>Tag</small>
-        </h2>
-      </div>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="https://d2vel.github.io/2022/05/01/Lambda%20with%20Typescript/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Kim Jong IL">
+      <meta itemprop="description" content="건강하고 똑똑하게">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Tandem6">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Lambda with Typescript<a href="https://github.com/d2vel/blog_source/edit/main/source/_posts/Lambda%20with%20Typescript.md" class="post-edit-link" title="Edit this post" rel="noopener" target="_blank"><i class="fa fa-pencil-alt"></i></a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2022-05-01 13:52:21 / Modified: 22:53:11" itemprop="dateCreated datePublished" datetime="2022-05-01T13:52:21+09:00">2022-05-01</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/AWS/" itemprop="url" rel="index"><span itemprop="name">AWS</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2022</span>
-    </div>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2022-04-30T08:47:04+09:00"
-              content="2022-04-30">
-          04-30
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2022/04/30/second/" itemprop="url">
-            <span itemprop="name">second</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2022-04-28T22:56:48+09:00"
-              content="2022-04-28">
-          04-28
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2022/04/28/%EC%B2%AB-%EB%B2%88%EC%A7%B8-%EA%B8%80/" itemprop="url">
-            <span itemprop="name">첫 번째 글</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
+        <p>아 배타지만 이제 들어왔다. SAM에서 Lambda Typescript를 지원한다. 이것을 한번 번역해보겠습니다.</p>
+<p><a target="_blank" rel="noopener" href="https://aws.amazon.com/blogs/compute/building-typescript-projects-with-aws-sam-cli/">https://aws.amazon.com/blogs/compute/building-typescript-projects-with-aws-sam-cli/</a></p>
 
     </div>
-  </div>
-  
-  
-  
 
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/Serverless/" rel="tag"># Serverless</a>
+              <a href="/tags/Lambda/" rel="tag"># Lambda</a>
+              <a href="/tags/AWS/" rel="tag"># AWS</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2022/04/30/Serverless-Scale/" rel="prev" title="Serverless Scale">
+      <i class="fa fa-chevron-left"></i> Serverless Scale
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
   
 
 
