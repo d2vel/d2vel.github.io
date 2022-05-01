@@ -20,17 +20,24 @@
     var CONFIG = {"hostname":"d2vel.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="건강하고 똑똑하게">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Tandem6">
-<meta property="og:url" content="https://d2vel.github.io/categories/Blog/index.html">
+  <meta name="description" content="참조 : https:&#x2F;&#x2F;aws.amazon.com&#x2F;ko&#x2F;blogs&#x2F;compute&#x2F;getting-started-with-event-driven-architecture&#x2F; 현대적인 어플리케이션에서 Event Driven 아키텍쳐는 클라우드에서 어플리케이션을 좀 더 쉽게 만들수 있게 해주기 때문에 더욱 중요해지고 있다. Event Driven 아키텍쳐는 서비스">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Getting Started with Event-Driven Architecture">
+<meta property="og:url" content="https://d2vel.github.io/2022/05/01/Getting%20Started%20with%20Event-Driven%20Architecture/index.html">
 <meta property="og:site_name" content="Tandem6">
-<meta property="og:description" content="건강하고 똑똑하게">
+<meta property="og:description" content="참조 : https:&#x2F;&#x2F;aws.amazon.com&#x2F;ko&#x2F;blogs&#x2F;compute&#x2F;getting-started-with-event-driven-architecture&#x2F; 현대적인 어플리케이션에서 Event Driven 아키텍쳐는 클라우드에서 어플리케이션을 좀 더 쉽게 만들수 있게 해주기 때문에 더욱 중요해지고 있다. Event Driven 아키텍쳐는 서비스">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://d2vel.github.io/2022/05/01/Getting%20Started%20with%20Event-Driven%20Architecture/2022-05-02T080133.png">
+<meta property="og:image" content="https://d2vel.github.io/2022/05/01/Getting%20Started%20with%20Event-Driven%20Architecture/2022-05-02T083202.png">
+<meta property="article:published_time" content="2022-05-01T14:00:22.000Z">
+<meta property="article:modified_time" content="2022-05-01T23:46:22.639Z">
 <meta property="article:author" content="Kim Jong IL">
+<meta property="article:tag" content="AWS">
+<meta property="article:tag" content="eventdriven">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://d2vel.github.io/2022/05/01/Getting%20Started%20with%20Event-Driven%20Architecture/2022-05-02T080133.png">
 
-<link rel="canonical" href="https://d2vel.github.io/categories/Blog/">
+<link rel="canonical" href="https://d2vel.github.io/2022/05/01/Getting%20Started%20with%20Event-Driven%20Architecture/">
 
 
 <script id="page-configurations">
@@ -38,12 +45,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'en'
   };
 </script>
 
-  <title>Category: Blog | Tandem6</title>
+  <title>Getting Started with Event-Driven Architecture | Tandem6</title>
   
 
 
@@ -186,71 +193,128 @@
         <div class="content-wrap">
           
 
-          <div class="content category">
+          <div class="content post posts-expand">
             
 
+    
   
   
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <h2 class="collection-header">Blog
-          <small>Category</small>
-        </h2>
-      </div>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="https://d2vel.github.io/2022/05/01/Getting%20Started%20with%20Event-Driven%20Architecture/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Kim Jong IL">
+      <meta itemprop="description" content="건강하고 똑똑하게">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Tandem6">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Getting Started with Event-Driven Architecture<a href="https://github.com/d2vel/blog_source/edit/main/source/_posts/Getting%20Started%20with%20Event-Driven%20Architecture.md" class="post-edit-link" title="Edit this post" rel="noopener" target="_blank"><i class="fa fa-pencil-alt"></i></a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2022-05-01 23:00:22" itemprop="dateCreated datePublished" datetime="2022-05-01T23:00:22+09:00">2022-05-01</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2022-05-02 08:46:22" itemprop="dateModified" datetime="2022-05-02T08:46:22+09:00">2022-05-02</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Architecure/" itemprop="url" rel="index"><span itemprop="name">Architecure</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2022</span>
-    </div>
+        <img src="/2022/05/01/Getting%20Started%20with%20Event-Driven%20Architecture/2022-05-02T080133.png" class="" title="MSA">
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+<p>참조 : <a target="_blank" rel="noopener" href="https://aws.amazon.com/ko/blogs/compute/getting-started-with-event-driven-architecture/">https://aws.amazon.com/ko/blogs/compute/getting-started-with-event-driven-architecture/</a></p>
+<p>현대적인 어플리케이션에서 Event Driven 아키텍쳐는 클라우드에서 어플리케이션을 좀 더 쉽게 만들수 있게 해주기 때문에 더욱 중요해지고 있다. Event Driven 아키텍쳐는 서비스들을 decouple 할 수 있게 되므로, 개발 속도를 향상 시키고, 어플리케이션의 디버깅을 좀 더 쉽게 합니다. 또한 이 아키텍쳐는 기능이 여러 팀안에서 확장될 때 병목현상(bottlenect)를 제거하고 이것은 팀이 좀 더 독립적으로 개발을 진행할 수 있도록 합니다.</p>
+<p>프로그램이 어떻게 동작하는가 생각할 수 있는 한 가지 방법은 어플리케이션의 다른곳으로 부터 발생하는 이벤트에 반응하는 시스템으로 보는 것입니다. 이같은 접근은, 이벤트 전달자로써 그것을 둘러쌓고 있는 것들과 시스템의 상호작용에 초점을 맞춥니다. 어플리케이션은 이벤트를 받고 이벤트를 만들어낸다. 애플리케이션으로의 입력과 애플리케이션으로 부터의 출력은 이벤트로써 동작합니다. 이것이 Event Driven 아키텍쳐의 핵심입니다.</p>
+<h2 id="API-Driven-architecture-vs-Event-Driven-architecture"><a href="#API-Driven-architecture-vs-Event-Driven-architecture" class="headerlink" title="API-Driven architecture vs Event-Driven architecture"></a>API-Driven architecture vs Event-Driven architecture</h2><table>
+<thead>
+<tr>
+<th>Commands&#x2F;APIs</th>
+<th>Events</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Synchronous</td>
+<td>Asynchronous</td>
+</tr>
+<tr>
+<td>Has an Intent</br>Driected to a target</td>
+<td>It’s a fact</br>Happened in the past</td>
+</tr>
+<tr>
+<td>“CreateAccount”</br>“AddProduct”</td>
+<td>“AccountCreated”</br>“RoductAdded”</td>
+</tr>
+</tbody></table>
+<p>응답과 요청을 기반으로 하는 API Driven 아키텍쳐는 여러 컴포넌트들이 함께 동작할 수 있게 해주는 애플리케이션을 만드는 일반적인 방법이다. 예를 들어, 주문 API로 부터 주문의 쿼리를 요청한다면, 주문 API는 주문리스트를 반환할 것이다. 이것은 동기적인 아키텍텨의 예제이다. 주문을 요청하는 시스템은 응답을 기다립니다. 응답이 오기 전에는 다른 곳으로 이동할 수가 없습니다. 이같은 접근에서는 명령어를 직접적으로 Target에 보냅니다.(예를 들어, “place this order” 또는 “add this record to the database”).</p>
+<img src="/2022/05/01/Getting%20Started%20with%20Event-Driven%20Architecture/2022-05-02T083202.png" class="" title="sync and async">
 
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2022-04-30T08:47:04+09:00"
-              content="2022-04-30">
-          04-30
-        </time>
-      </div>
+<p>이러한 동기화 모델 안에서, 클라이언트는 Service A로 요청을 한다. Service A는 Service B를 호출한다. 그러나 Service A는 계속 진행하거나 이벤트의 응답을 보내기 전에, Service B의 응답을 기다린다.</p>
+<p>비동기인 Event Driven 아키텍쳐에서는 응답 경로가 없습니다. 서비스는 이벤트를 발생시킨 후 즉시 다음으로 이동합니다. 여기서의 Trade-off는 이벤트를 수신했다는 것외에 Service A로 정보를 전달하기 위한 Service B에 대한 직접적인 채널이 없다는 것이다. 그러나 많은 경우에 요청 채널과 응답 채널 간에 명시적인 결합(coupling)이 필요하지 않습니다.</p>
+<p>이벤트는 이미 발생한 어떤 것입니다. 예를 들어, 새로운 계정이 생성되었거나(is created), Amazon S3 버킷으로 아이템이 전송(is dropped)이 된 경우 입니다. 예를 들어, 만약 주문이 되었을 때 이벤트가 발생한다면, 주문이 취소되는 이벤트도 존재할 수 있습니다. 이벤트는 메시징 시스템 또는 데이터베이스와 같은 다양한 것으로부터 가져올 수 있습니다.</p>
+<p>이벤트는 응용 프로그램에서 발생한 사항에 대한 정보를 알려주는 JSON 개체입니다. 이벤트 중심 아키텍처에서 이벤트는 사실을 나타냅니다. 애플리케이션의 각 구성 요소는 변경 사항이 있을 때마다 이벤트를 발생시킵니다. 다른 구성 요소들은 듣고 이를 사용하여 무엇을 할 것인지, 그리고 어떻게 반응할 것인지를 결정합니다.</p>
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2022/04/30/second/" itemprop="url">
-            <span itemprop="name">second</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2022-04-28T22:56:48+09:00"
-              content="2022-04-28">
-          04-28
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2022/04/28/%EC%B2%AB-%EB%B2%88%EC%A7%B8-%EA%B8%80/" itemprop="url">
-            <span itemprop="name">첫 번째 글</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
 
     </div>
-  </div>
-  
-  
-  
 
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/AWS/" rel="tag"># AWS</a>
+              <a href="/tags/eventdriven/" rel="tag"># eventdriven</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2022/05/01/Lambda%20with%20Typescript/" rel="prev" title="Lambda with Typescript">
+      <i class="fa fa-chevron-left"></i> Lambda with Typescript
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
   
 
 
@@ -303,6 +367,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#API-Driven-architecture-vs-Event-Driven-architecture"><span class="nav-number">1.</span> <span class="nav-text">API-Driven architecture vs Event-Driven architecture</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
