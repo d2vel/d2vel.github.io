@@ -193,7 +193,9 @@
 <p>비동기인 Event Driven 아키텍쳐에서는 응답 경로가 없습니다. 서비스는 이벤트를 발생시킨 후 즉시 다음으로 이동합니다. 여기서의 Trade-off는 이벤트를 수신했다는 것외에 Service A로 정보를 전달하기 위한 Service B에 대한 직접적인 채널이 없다는 것이다. 그러나 많은 경우에 요청 채널과 응답 채널 간에 명시적인 결합(coupling)이 필요하지 않습니다.</p>
 <p>이벤트는 이미 발생한 어떤 것입니다. 예를 들어, 새로운 계정이 생성되었거나(is created), Amazon S3 버킷으로 아이템이 전송(is dropped)이 된 경우 입니다. 예를 들어, 만약 주문이 되었을 때 이벤트가 발생한다면, 주문이 취소되는 이벤트도 존재할 수 있습니다. 이벤트는 메시징 시스템 또는 데이터베이스와 같은 다양한 것으로부터 가져올 수 있습니다.</p>
 <p>이벤트는 응용 프로그램에서 발생한 사항에 대한 정보를 알려주는 JSON 개체입니다. 이벤트 중심 아키텍처에서 이벤트는 사실을 나타냅니다. 애플리케이션의 각 구성 요소는 변경 사항이 있을 때마다 이벤트를 발생시킵니다. 다른 구성 요소들은 듣고 이를 사용하여 무엇을 할 것인지, 그리고 어떻게 반응할 것인지를 결정합니다.</p>
+<img src="/2022/05/01/Getting%20Started%20with%20Event-Driven%20Architecture/2022-05-02T084558.png" class="" title="event Json example">
 
+<p>위의 이벤트는, Amazon S3 버킷에 이미지가 담겨졌을 때 S3가 발생하는 이벤트 입니다. Event Source는 sam-app-sourcebucket라는 이름을 가진 S3 버킷입니다. 이 버킷에 담겨진 Object는 “brad.jpeg” 입니다.</p>
 ]]></content>
       <categories>
         <category>Architecure</category>
