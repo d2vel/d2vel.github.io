@@ -1,304 +1,252 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>Hello World</title>
-    <url>/2022/04/28/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>첫 번째 글</title>
-    <url>/2022/04/28/%EC%B2%AB-%EB%B2%88%EC%A7%B8-%EA%B8%80/</url>
-    <content><![CDATA[<p>본문이 이렇게 있을 때 여기까지만 인덱스 페이지에 나타납니다.</p>
-<span id="more"></span>
-<p>여기서부턴 인덱스에 안나옵니다.</p>
-]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Serverless Project Example</title>
+      <link href="/2022/05/08/Serverless%20Project%20Example/"/>
+      <url>/2022/05/08/Serverless%20Project%20Example/</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://github.com/awsrun/aws-microservices">https://github.com/awsrun/aws-microservices</a></p><p><a href="https://www.youtube.com/watch?v=U5GZNt0iMZY">https://www.youtube.com/watch?v=U5GZNt0iMZY</a></p><p><a href="https://www.youtube.com/watch?v=ttJAIQf7cTw">https://www.youtube.com/watch?v=ttJAIQf7cTw</a></p><p>매우 좋은 셈플인 것 같다 이것을 참고로 뭔가를 하나 만들어봐야 겠다.</p><span id="more"></span><p>![122677923-1f72be80-d1ed-11eb-9a0f-d267756495e5](Serverless Project Example&#x2F;122677923-1f72be80-d1ed-11eb-9a0f-d267756495e5.PNG)</p>]]></content>
+      
+      
       <categories>
-        <category>Blog</category>
-        <category>Hexo</category>
+          
+          <category> AWS </category>
+          
       </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>Github</tag>
-        <tag>blog</tag>
-        <tag>헥소</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>second</title>
-    <url>/2022/04/30/second/</url>
-    <content><![CDATA[<p>ㅋㅋㅋㅋ 이거는 두 번째 그거 입니다.</p>
-<p>여기서 수정을 할 수 있구나….</p>
-<img src="/2022/04/30/second/example.jpeg" class="" title="This is an example image">
-
-<img src="/2022/04/30/second/2022-04-30T091154.png" class="" title="This is an example image">
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> Serverless </tag>
+            
+            <tag> Lambda </tag>
+            
+            <tag> AWS </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Project To Product 01</title>
+      <link href="/2022/05/03/Project%20To%20Product%2001/"/>
+      <url>/2022/05/03/Project%20To%20Product%2001/</url>
+      
+        <content type="html"><![CDATA[<img src="/2022/05/03/Project%20To%20Product%2001/2022-05-03T115153.png" class="" title="플로우 지표과 비즈니스 결과 연결하기"><p>이번에는 서버리스를 도입하고 운영하기 위해서 어떤 점들을 고려해봐야 하는지에 대해서 작성해 보았습니다.</p><span id="more"></span><p>위의 그림은 플로우 지표와 비즈니스 지표를 어떻게 연결할 수 있는지를 보여주고 있다. 플로우 지표들은 살펴보았고(플로우 속도, 플로우 효율, 플로우 타입, 플로우 부하), 비즈니스 지표들은 이제 살펴보도록 하겠다. 아래의 표는 간단하게 이를 요약하고 있다.</p><table><thead><tr><th>비즈니스 결과</th><th>측정 방법</th><th>예시</th></tr></thead><tbody><tr><td>가치</td><td>가치 흐름이 생산하는 비즈니스 이득</td><td>매출, 월간 고청 매출, 연간 계약 가치, 월간 활성 사용자</td></tr><tr><td>비용</td><td>비즈니스가 부담하는 가치 흐름 비용</td><td>가치 흐름을 위한 모든 인건비, 운영비, 인프라 비용, 가치 흐름에 할당된 전일제 환산(FTE, Full Time Equivalent)</td></tr><tr><td>품질</td><td>가치 흐름이 생산하는 제품이 고객에게 감지되는 품질</td><td>(고객에게) 드러난 결함, 쌓인 티켓 수, 계약 연장률, 확장률, 순수 고객 추천 지수(NPS)</td></tr><tr><td>행복도</td><td>가치 흐름 구성원의 몰입도</td><td>직원 추천 지수(eNPS), 직원 몰입</td></tr></tbody></table><h2 id="Measuring-Value-가치-측정하기"><a href="#Measuring-Value-가치-측정하기" class="headerlink" title="Measuring Value : 가치 측정하기"></a>Measuring Value : 가치 측정하기</h2><ul><li>측정 지표는 조직에서 사용하는 재무 지표에서 직접 가져와야 한다. </li><li>가치 흐름에 의해 생성된 수익 선행 지표, 즉 세이즈 파이프 라인 성장률, 고객 만족도(예를 들어 NPS)등을 가치 버킷에 넣을 수 있다.</li></ul><h2 id="Value-Stream-Cost-가치-흐름-비용"><a href="#Value-Stream-Cost-가치-흐름-비용" class="headerlink" title="Value Stream Cost : 가치 흐름 비용"></a>Value Stream Cost : 가치 흐름 비용</h2><ul><li>가치 흐름 비용은 특정 제품의 전달과 관련된 모든 비용을 포함한다. 해당 가치 흐름의 전달과 관련된 모든 것을 포함해 TCO(Total Cost of Ownership)을 고려하는 것과 비슷하며 제조업의 ‘가치 흐름별 비용 계산(Costing by value stream)’ 기법과도 유사하다. </li><li>가치 흐름 비용은 직접적인 비용뿐만 아니라 가치 흐름이 사용하는 공유 서비스 비용의 비율도 계산해야 한다. 여기에는 인건비(정직원 또는 계약직), 라이선스 비용, 인프라 비용(내부 또는 외부 호스팅) 등이 포함될 수 있다.</li></ul><h2 id="Value-Stream-Quality-가치-흐름-품질"><a href="#Value-Stream-Quality-가치-흐름-품질" class="headerlink" title="Value Stream Quality : 가치 흐름 품질"></a>Value Stream Quality : 가치 흐름 품질</h2><ul><li>가치 흐름은 고객에게 초점을 두고 있으므로 품질 버킷에는 고객에서 드러나는 종류의 지표를 사용해야 한다. 드러난 결함 뿐만 아니라 발생한 사건의 수, 티켓 개수, 기타 고객 만족 지표도 품질 버킷에 포함될 수 있다. 결함 수명(Defect Aging: 결함 인지부터 해소까지의 기간) 및 변경 성공률과 같이 고객에게 인지되지 않는 품질 지표는 품질 문제의 중요한 선행 지표이기는 하지만 플로우 프레임워크는 고개과 비즈니스에 가시적인 지표에 집중하므로 중요는 한 단계 아래이다.</li></ul><h2 id="Value-Stream-Happiness"><a href="#Value-Stream-Happiness" class="headerlink" title="Value Stream Happiness"></a>Value Stream Happiness</h2><ul><li>가치 흐름의 생산성은 화면 디자인, 자동화 테스트 작성 등 가치 창출 활동에 달려 있다. 앞으로 인공 지능이 테스트 코드를 자동으로 작성하는 것과 같이 자동화되는 분야가 늘어나더라도, 생산성은 언제나 팀에서 수행하는 창조적 작업에 달려 있음을 기술 기업들은 오래전부터 잘 알고 있었다. </li><li>성과가 좋은 조직은 이미 eNPS(직원 추천 지수)와 같은 지표를 통해 직원 참여도를 측정한다. Accelerate는 IT 조직에서 좋은 성과를 내느 조직의 직원이 그들의 조직을 일하기 좋은 곳으로 추천하는 경향이 2.2배 더 높음을 발표했다.</li></ul><h2 id="Value-Stream-Dashboards"><a href="#Value-Stream-Dashboards" class="headerlink" title="Value Stream Dashboards"></a>Value Stream Dashboards</h2><img src="/2022/05/03/Project%20To%20Product%2001/ValueStreamDashboards.png" class="" title="플로우 지표과 비즈니스 결과 연결하기">]]></content>
+      
+      
       <categories>
-        <category>Blog</category>
-        <category>Hexo</category>
+          
+          <category> Project To Product </category>
+          
       </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>Github</tag>
-        <tag>blog</tag>
-        <tag>헥소</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Serverless Scale</title>
-    <url>/2022/04/30/Serverless-Scale/</url>
-    <content><![CDATA[<img src="/2022/04/30/Serverless-Scale/hurdle.jpg" class="" title="허들이미지">
-
-<p>이번에는 서버리스를 도입하고 운영하기 위해서 어떤 점들을 고려해봐야 하는지에 대해서 작성해 보았습니다. </p>
-<span id="more"></span>
-
-<p>이번에는 서버리스에 대해서 한번 살펴보고자 한다. 대학교 때부터 이런 이야기를 IT에서 자주 들어왔던 것 같다. 뭔가를 동작하게 하는 것은 쉽지만 잘 동작하게 하는 것은 매우 어려운 일이다. 이것은 특히 회사에서 공감을 많이 하게 되는 말이었다. 회사에서 항상 뭔가를 하다보면 POC&#x2F;BMT 레벨에서는 문제가 없었지만 실제 운영에서는 문제가 생기는 경우를 많이 보았다. 대부분은 생각하지 못했던 예외 케이스와 미리 생각하지 못했던 부하에서 문제많이 생겼다.</p>
-<p>두 번째 하고 싶은 이야기는 언제나 새로운 기술의 도입에는 허들이 있다는 것이다. Spring Boot, JPA, DDD등 모두가 그랬다. JPA를 처음 사용하려고 교육에 갔을 때 강사가 했던 말은 “JPA는 성능이 좋지 않기 때문에 실제 SI환경에서는 사용하지 않습니다.” 였습니다. 이 말을 듣고 실제 이것의 성능이 그렇게 좋지 않다면 외국에서 이것을 많이 사용할까 였습니다. 하지만 JPA를 사용하면서도 성능을 유지하려면 CQRS 및 Query DSL등에 대한 지식도 같이 있어야 성능의 문제를 해결 수 있었습니다. 말씀 드렸다시피 어떤 시도가 성공의 괘도에 오르려면 허들을 넘는 것은 필수 입니다. <strong>허들을 넘지 못하면 새로움은 없습니다.</strong> 또한 대부분의 허들을 넘지 못하는 사람들이 하는 말은 그 기술은 좋지 않다입니다. ㅠㅠ</p>
-<h2 id="서버리스"><a href="#서버리스" class="headerlink" title="서버리스"></a>서버리스</h2><p>서버리스는 말 그래도 서버가 없다는 말이다. 하지만 실제로 서버가 없지는 않겠죠? 이 말은 서버를 별도로 관리할 필요가 없다는 것이다. 서버를 만들 필요도 서버의 최신 버젼을 유지한다거나 서버를 패치해야 할 필요도 없다. 일반적으로 아주 간단하게 말하면 서버의 Scale도 관리할 필요는 없습니다. <strong>하지만 고려해야 할 필요는 있습니다.</strong>.</p>
-<p>많은 CSP등 혹은 K8S도 서버리스에 대한 서비스를 제공하고 있습니다.</p>
-<p>ç</p>
-<p>AWS 서비스들을 보면 그 중심에 Lambda가 있습니다. 당연히 서버리스를 사용해서 서비스를 만든다면 일단 이들에 대해서 정확하게 하는 것이 필요합니다.</p>
-<h3 id="서버리스-도입-및-운영의-장점"><a href="#서버리스-도입-및-운영의-장점" class="headerlink" title="서버리스 도입 및 운영의 장점"></a>서버리스 도입 및 운영의 장점</h3><p>서버리스는 일반적으로 다른 서비스에 비해 일반적인 상황에서 운영에 대해 고려할 것이 적습니다. 실제 시스템의 패치 및 부하에 따른 고려, 또한 시스템의 구성 등에 시간이 적게 들어갑니다. 대표적인 서버리스 compute 컴포넌트인 lambda의 경우를 예를 들어 설명해 보면 Serverless Framework이나 SAM을 활용하면 매우 짧은 시간 안에 시스템의 구성이 가능합니다.</p>
-<p>또한 Dyanmodb &#x2F; Amplify &#x2F; Cognito 등과 같이 사용을 할 때는, Compute 뿐만 아니라 Database &#x2F; Auth들의 구현도 매우 짧은 시간 안에 구현할 수 있습니다.</p>
-<img src="/2022/04/30/Serverless-Scale/2022-04-30T173334.png" class="" title="This is an example image">
-
-<h3 id="서버리스를-도입할-때-고려해야-할-것들"><a href="#서버리스를-도입할-때-고려해야-할-것들" class="headerlink" title="서버리스를 도입할 때 고려해야 할 것들"></a>서버리스를 도입할 때 고려해야 할 것들</h3><p>하지만 일반적인 상황에서 서버리스가 매우 빠른 다른 이야기 입니다. 갑작스럽게 부하게 엄청 많이 증가하는 상황이라든지 혹은 엄청 연산이나 처리가 길어지는 경우에는 컨드롤하기 어려운 단점이 존재합니다. 또한 lambda의 경우는 요청 수행시간에 따라 Concurrency가 매우 많은 영향을 받습니다. 또한 기본적으로 Account Quota가 아래와 같이 설정되어 있습니다.</p>
-<table>
-<thead>
-<tr>
-<th>Resource</th>
-<th align="right">Default quota</th>
-<th align="center">Can be increased up to</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Concurrent executions</td>
-<td align="right">1,000</td>
-<td align="center">Tens of thousands</td>
-</tr>
-<tr>
-<td>Storage for uploaded functions (.zip file archives) and layers. Each function version and layer version consumes storage. <br /><br /> For best practices on managing your code storage, see Monitoring Lambda code storage in the Lambda Operator Guide.</td>
-<td align="right">75 GB</td>
-<td align="center">Terabytes</td>
-</tr>
-<tr>
-<td>Storage for functions defined as container images. These images are stored in Amazon ECR.</td>
-<td align="right">See Amazon ECR service quotas.</td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Elastic network interfaces per virtual private cloud (VPC)<br />Note<br />This quota is shared with other services, such as Amazon Elastic File System (Amazon EFS). See Amazon VPC quotas.</td>
-<td align="right">250</td>
-<td align="center">Hundreds</td>
-</tr>
-</tbody></table>
-<p>위와 같이 스케일이 제한되어 있기 때문에 특별히 Burst 상황이 생길 여지가 있는 곳에서는 고려해야 할 것 들이 생기게 됩니다. 아래는 특별히 lambda의 부하 및 구성관점에서 어떠한 것들을 고려해야 하는지 알아보도록 하겠다.</p>
-<h4 id="큰-API는-Lambda를-Account로-분리해야-한다"><a href="#큰-API는-Lambda를-Account로-분리해야-한다" class="headerlink" title="큰 API는 Lambda를 Account로 분리해야 한다."></a>큰 API는 Lambda를 Account로 분리해야 한다.</h4><img src="/2022/04/30/Serverless-Scale/2022-04-30T175208.png" class="" title="This is an example image">
-
-<p><a href="https://aws.amazon.com/ko/blogs/compute/managing-cross-account-serverless-microservices/">https://aws.amazon.com/ko/blogs/compute/managing-cross-account-serverless-microservices/</a> 참조</p>
-<p>위와 같이 Account로 분리해서 부하를 받아줄 수 있도록 분산해야 합니다. 하지만 이를 위해서 CI&#x2F;CD Pipeline 구성의 복잡도를 포함해야 합니다. 이에 대해서는 아래와 같이 좀더 자세히 기술하도록 하겠습니다.</p>
-<h4 id="짧은-Lambda-수행시간"><a href="#짧은-Lambda-수행시간" class="headerlink" title="짧은 Lambda 수행시간"></a>짧은 Lambda 수행시간</h4><p>1,000 Concurrency는 많은 수이지만 경우에 따라서는 매우 작은 숫자일 수도 있습니다.이 한계 안에서 Lambda를 활용하기 위해서는 Lambda의 수행시간을 가능하면 짧게 가져가야 합니다. 이를 위해서 EDA(Event Driven Architecure)와 함께 Nosql(Dynamodb)를 활용하여 처리시간을 짧게 가져가야 합니다.</p>
-<img src="/2022/04/30/Serverless-Scale/2022-04-30T180532.png" class="" title="This is an example image">
-
-<p>참고: <a href="https://aws.amazon.com/ko/blogs/compute/operating-lambda-understanding-event-driven-architecture-part-1/">https://aws.amazon.com/ko/blogs/compute/operating-lambda-understanding-event-driven-architecture-part-1/</a></p>
-<h4 id="Cold-Start"><a href="#Cold-Start" class="headerlink" title="Cold Start"></a>Cold Start</h4><p>Lambda의 경우 기본적으로 내부적으로는 Container를 활용하기 때문에 실제로는 서버가 필요합니다. 실제 요청을 받고 서버가 준비되기 전까지의 시간이 필요하며, 이를 Cold Start라고 합니다. 요청이 매우 빨리 늘어나는 경우에는 Cold Start가 서비스에 영향을 미칠 수도 있습니다. 그렇기 때문에 이를 줄이기 위한 노력이 필요합니다. 여러가지가 있지만 지금은 이것을 위해서 가능한 패키지 되는 용량이 작아야 하며, 가능한 무겁지 않도록 프로그램을 작성해야 하다 정도를 생각하시면 됩니다. 추후 다른 아티클에서 어떻게 Cold Start를 제거 하는지 확인해보도록 하겠습니다.’</p>
-<h4 id="짧은-수행시간을-위한-Tip"><a href="#짧은-수행시간을-위한-Tip" class="headerlink" title="짧은 수행시간을 위한 Tip"></a>짧은 수행시간을 위한 Tip</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> <span class="variable constant_">AWS</span> = <span class="built_in">require</span>(<span class="string">&#x27;aws-sdk&#x27;</span>);</span><br><span class="line"><span class="comment">// http or https</span></span><br><span class="line"><span class="keyword">const</span> http = <span class="built_in">require</span>(<span class="string">&#x27;http&#x27;</span>);</span><br><span class="line"><span class="keyword">const</span> agent = <span class="keyword">new</span> http.<span class="title class_">Agent</span>(&#123;</span><br><span class="line">    <span class="attr">keepAlive</span>: <span class="literal">true</span>,</span><br><span class="line">    <span class="comment">// Infinity is read as 50 sockets</span></span><br><span class="line">    <span class="attr">maxSockets</span>: <span class="title class_">Infinity</span></span><br><span class="line">    &#125;);</span><br><span class="line"></span><br><span class="line"><span class="variable constant_">AWS</span>.<span class="property">config</span>.<span class="title function_">update</span>(&#123;</span><br><span class="line">    <span class="attr">httpOptions</span>: &#123;</span><br><span class="line">    agent</span><br><span class="line">    &#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-<h4 id="Multi-acount-Ci-x2F-cd-구성"><a href="#Multi-acount-Ci-x2F-cd-구성" class="headerlink" title="Multi acount Ci&#x2F;cd 구성"></a>Multi acount Ci&#x2F;cd 구성</h4><h4 id="Lambda의-배포-Dependency의-해결"><a href="#Lambda의-배포-Dependency의-해결" class="headerlink" title="Lambda의 배포 Dependency의 해결"></a>Lambda의 배포 Dependency의 해결</h4>]]></content>
+      
+      
+        <tags>
+            
+            <tag> Culture </tag>
+            
+            <tag> ProjectToProduct </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Getting Started with Event-Driven Architecture</title>
+      <link href="/2022/05/01/Getting%20Started%20with%20Event-Driven%20Architecture/"/>
+      <url>/2022/05/01/Getting%20Started%20with%20Event-Driven%20Architecture/</url>
+      
+        <content type="html"><![CDATA[<img src="/2022/05/01/Getting%20Started%20with%20Event-Driven%20Architecture/2022-05-02T080133.png" class="" title="MSA"><p>참조 : <a href="https://aws.amazon.com/ko/blogs/compute/getting-started-with-event-driven-architecture/">https://aws.amazon.com/ko/blogs/compute/getting-started-with-event-driven-architecture/</a></p><p>간단하게 이벤트 드리븐 아키텍쳐에 대해서 알아봅시다.</p><span id="more"></span><p>현대적인 어플리케이션에서 Event Driven 아키텍쳐는 클라우드에서 어플리케이션을 좀 더 쉽게 만들수 있게 해주기 때문에 더욱 중요해지고 있다. Event Driven 아키텍쳐는 서비스들을 decouple 할 수 있게 되므로, 개발 속도를 향상 시키고, 어플리케이션의 디버깅을 좀 더 쉽게 합니다. 또한 이 아키텍쳐는 기능이 여러 팀안에서 확장될 때 병목현상(bottlenect)를 제거하고 이것은 팀이 좀 더 독립적으로 개발을 진행할 수 있도록 합니다.</p><p>프로그램이 어떻게 동작하는가 생각할 수 있는 한 가지 방법은 어플리케이션의 다른곳으로 부터 발생하는 이벤트에 반응하는 시스템으로 보는 것입니다. 이같은 접근은, 이벤트 전달자로써 그것을 둘러쌓고 있는 것들과 시스템의 상호작용에 초점을 맞춥니다. 어플리케이션은 이벤트를 받고 이벤트를 만들어낸다. 애플리케이션으로의 입력과 애플리케이션으로 부터의 출력은 이벤트로써 동작합니다. 이것이 Event Driven 아키텍쳐의 핵심입니다.</p><h2 id="API-Driven-architecture-vs-Event-Driven-architecture"><a href="#API-Driven-architecture-vs-Event-Driven-architecture" class="headerlink" title="API-Driven architecture vs Event-Driven architecture"></a>API-Driven architecture vs Event-Driven architecture</h2><table><thead><tr><th>Commands&#x2F;APIs</th><th>Events</th></tr></thead><tbody><tr><td>Synchronous</td><td>Asynchronous</td></tr><tr><td>Has an Intent</br>Driected to a target</td><td>It’s a fact</br>Happened in the past</td></tr><tr><td>“CreateAccount”</br>“AddProduct”</td><td>“AccountCreated”</br>“RoductAdded”</td></tr></tbody></table><p>응답과 요청을 기반으로 하는 API Driven 아키텍쳐는 여러 컴포넌트들이 함께 동작할 수 있게 해주는 애플리케이션을 만드는 일반적인 방법이다. 예를 들어, 주문 API로 부터 주문의 쿼리를 요청한다면, 주문 API는 주문리스트를 반환할 것이다. 이것은 동기적인 아키텍텨의 예제이다. 주문을 요청하는 시스템은 응답을 기다립니다. 응답이 오기 전에는 다른 곳으로 이동할 수가 없습니다. 이같은 접근에서는 명령어를 직접적으로 Target에 보냅니다.(예를 들어, “place this order” 또는 “add this record to the database”).</p><img src="/2022/05/01/Getting%20Started%20with%20Event-Driven%20Architecture/2022-05-02T083202.png" class="" title="sync and async"><p>이러한 동기화 모델 안에서, 클라이언트는 Service A로 요청을 한다. Service A는 Service B를 호출한다. 그러나 Service A는 계속 진행하거나 이벤트의 응답을 보내기 전에, Service B의 응답을 기다린다.</p><p>비동기인 Event Driven 아키텍쳐에서는 응답 경로가 없습니다. 서비스는 이벤트를 발생시킨 후 즉시 다음으로 이동합니다. 여기서의 Trade-off는 이벤트를 수신했다는 것외에 Service A로 정보를 전달하기 위한 Service B에 대한 직접적인 채널이 없다는 것이다. 그러나 많은 경우에 요청 채널과 응답 채널 간에 명시적인 결합(coupling)이 필요하지 않습니다.</p><p>이벤트는 이미 발생한 어떤 것입니다. 예를 들어, 새로운 계정이 생성되었거나(is created), Amazon S3 버킷으로 아이템이 전송(is dropped)이 된 경우 입니다. 예를 들어, 만약 주문이 되었을 때 이벤트가 발생한다면, 주문이 취소되는 이벤트도 존재할 수 있습니다. 이벤트는 메시징 시스템 또는 데이터베이스와 같은 다양한 것으로부터 가져올 수 있습니다.</p><p>이벤트는 응용 프로그램에서 발생한 사항에 대한 정보를 알려주는 JSON 개체입니다. 이벤트 중심 아키텍처에서 이벤트는 사실을 나타냅니다. 애플리케이션의 각 구성 요소는 변경 사항이 있을 때마다 이벤트를 발생시킵니다. 다른 구성 요소들은 듣고 이를 사용하여 무엇을 할 것인지, 그리고 어떻게 반응할 것인지를 결정합니다.</p><img src="/2022/05/01/Getting%20Started%20with%20Event-Driven%20Architecture/2022-05-02T084558.png" class="" title="event Json example"><p>위의 이벤트는, Amazon S3 버킷에 이미지가 담겨졌을 때 S3가 발생하는 이벤트 입니다. Event Source는 sam-app-sourcebucket라는 이름을 가진 S3 버킷입니다. 이 버킷에 담겨진 Object는 “brad.jpeg” 입니다.</p><p>요청 기반의 어플리케이션은 요청을 완료하기 위해서 항상 다운스트림 함수에 직접적으로 명령을 전달하고 이것은 강하게 결합이 됩니다. 이것은 어플리케이션에서 오류가 언제 방생하는 것이지 결정하는 것을 어렵게 합니다. 이벤트 기반의 어플리케이션은 다른 서비스나 시스템에서 활용되어지는 이벤트를 발생합니다. 그러나 이벤트 생성하는 쪽에서는 이벤트를 어떠한 소비자(consumer)를 알지 못합니다. 이것은 전형적으로 느슨합 결합의 형태를 가지게 됩니다.</p><p>이벤트를 볼 수 있는 권한을 가진 어떠한 서비스라도 이벤트를 관찰할 수 있습니다. 커피숍의 예제를 생각해본다면 거기에는 커피를 내리고 있는 바리스타가 있고, 그리고 pastries를 만드는 파티쉐가 있습니다. 고객이 커피숍으로 들어오고 그리고 커피를 주문하면 파리스타는 커비를 내리기 시작하고 파티쉐는 아무 행동도 하지 않습니다.</p><p>그러나 만약 고객이 커피숍에 들어와 초콜릿 크로아상을 주문한다면 파티쉐는 초콜릿 크로아상을 만들기 시작합니다. 그리고 바리스타는 아무 행동을 하지 않을 것입니다. 파티쉐는 오직 파티쉐와 관련된 주문만을 관심하고 있고, 바리스타는 오직 커피와 관련된 주문에만 관심을 두고 있습니다.</p><p>아마존과 같은 E-commerce 에플리케이션 관점에서 본다면, 다른 이벤트에 응답을 주엉야 할 각각의 부서들이 있습니다. 아마존에서 Amazon Fresh의 Whole Food를 주문할 수 있다. Amazon Fresh에서 주문은 한다면 이 이벤트를 구독하고 있는 부서에는 그 이벤트를 처리하고 주문을 수행할 것이다.</p><img src="/2022/05/01/Getting%20Started%20with%20Event-Driven%20Architecture/2022-05-04T081857.png" class="" title="event Json example"><p>이벤트 기반의 아키텍쳐와 커맨드 기반의 아키텍쳐는 각각 다른 방식으로 상태를 저장합니다. 전형적인 커맨드 기반의 아키텍쳐에서는, 컴포넌트들은 각 데이터의 최종상태를 업데이트를 수행합니다. 이벤트 기반의 아키텍쳐에서는 업데이트를 수행할 때 새로운 이벤트가 발생하도록 하면 됩니다. 설명하면 커멘드 기반의 아키텍쳐에서는 업데이트의 최종 업데이트 상태를 가지고 있지만, 이벤트 기반의 아키텍쳐에서는 발생한 모든 이벤트 전체를 가지고 있습니다.</p><h2 id="이벤트-기반-아키텍쳐의-장점"><a href="#이벤트-기반-아키텍쳐의-장점" class="headerlink" title="이벤트 기반 아키텍쳐의 장점"></a>이벤트 기반 아키텍쳐의 장점</h2><h3 id="이벤트의-소스와-Targer를-분리"><a href="#이벤트의-소스와-Targer를-분리" class="headerlink" title="이벤트의 소스와 Targer를 분리"></a>이벤트의 소스와 Targer를 분리</h3><p>많은 어플리케이션들은 각 컴포넌트가 강하게 결합되어 있고 서로가 강하게 의존하는 Monolith로 구성이 됩니다. 이것은 버그가 있고 애플리케이션의 실패하는 곳이 어느 부분인지 정확히 찾아내는 것에서 문제가 되는 것으로 판명되었습니다. 분리된 아키텍쳐는 느슨하게 결합된 서비스나 컴포넌트로 구성이 됩니다. 이벤트 주도적인 분리된 아키텍쳐에서는 이벤트는 누가 응답하는지 알지 못한채로 이벤트를 브로드캐스트 합니다. 이벤트를 수신하는 컴포넌트나 서비스가 이벤트를 처리할 준비가 될 때마다 이벤트를 대기열에 넣고,전달할 수 있기 때문에 이것은 좀 더 확장가능하고 변경에 열려있는 시스템을 개발할 수 있도록 합니다.</p><p>Decoupled 된 아키텍쳐는 팀이 독집적으로 행동할 수 있게 해주고 이는 개발 속도를 증가시킨다. 예를 들어 API를 기반으로 한 통합에서는 만약 내 팀이 다른 팀의 마이크로서비스에서 일어나는 변경에 대해서 알기를 원한다면 나는 나의 서비스를 위해서 그 팀이 만드는 API에 대해서 물어봐야 한다. 이것은 나는 다른 팀과 인증을 적절하게 처리해야 하며, 다른 팀과 API 호출을 위한 구조들에 대한 협의가 필요하다는 것을 의미합니다. 이것은 팀 사이를 왔다갔다하는 것을 야기시키며, 개발속도를 낮춥니다. 이벤트 주도적인 아키텍쳐에서는 마이크로서비스나 이벤트의 라우팅을 처리하고, 인증을 처리해주는 이벤트 라우터(예를 들어, Amazon EventBridge) 로부터 이벤트를 구독합니다.</p><p>Decoupled 어플리케이션은 새로운 기능을 보다 빨리 개발할 수 있게 합니다. 새로운 기능을 추가하는 것과 기존에 있는 기능을 확징하는 것은 이벤트 주도적인 아키텍쳐에서는 보다 간단한 일입니다. 새로운 기능을 실행하고 구독하는 데 필요한 이벤트만 선택하면 되기 때문입니다. 새로운 기능을 추가하기 위해 기존 서비스를 수정할 필요가 없습니다.</p><h3 id="Write-less-code"><a href="#Write-less-code" class="headerlink" title="Write less code"></a>Write less code</h3><p>When you build applications using event-driven architecture, often you write less code because you only need to consider new events, as well as which service is subscribed to those events. For example, if you are building new features for your application, all you have to do is consider the existing events and then add senders and receivers as necessary. In this way, you speed up development time because each functional unit is smaller and there is often less code.</p><h3 id="Better-extensibility"><a href="#Better-extensibility" class="headerlink" title="Better extensibility"></a>Better extensibility</h3><h3 id="Enhancing-team-collaboration"><a href="#Enhancing-team-collaboration" class="headerlink" title="Enhancing team collaboration"></a>Enhancing team collaboration</h3><h2 id="결론"><a href="#결론" class="headerlink" title="결론"></a>결론</h2>]]></content>
+      
+      
       <categories>
-        <category>AWS</category>
+          
+          <category> Architecure </category>
+          
       </categories>
-      <tags>
-        <tag>Serverless</tag>
-        <tag>Lambda</tag>
-        <tag>AWS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>MSA 도입하지 마라</title>
-    <url>/2022/04/30/MSA%20%EB%8F%84%EC%9E%85%ED%95%98%EC%A7%80%20%EB%A7%88%EB%9D%BC/</url>
-    <content><![CDATA[<img src="/2022/04/30/MSA%20%EB%8F%84%EC%9E%85%ED%95%98%EC%A7%80%20%EB%A7%88%EB%9D%BC/2022-04-30T204459.png" class="" title="MSA">
-
-<p>이런 이야기를 나도 할 줄은 몰랐다. 살아가다 보면 왠지 어렵지만 해야 될 것 같은 일들이 있다. 그거 안하면 다른 사람들 보다 뒤로 쳐지는 것 같고 그래서 꼭 해야 하는데 너무 어렵고 그리고 어렵게 따라 했는데 나에게 그렇게 큰 영향이 없는 일….</p>
-<p>지금 이야기를 하려고 하는 것이 그런 것 같다. 이제 최근도 아닌 이야기가 되었지만 아키덱쳐 세계에서 큰 화두였다. 그리고 많은 기술력 있는 기업들은 MS를 도입하여 많은 기술적인 장점들을 취했다. 대표적인 기업들이 아마도 Netflix&#x2F;amazon일 것 같다. 그리고 더 찾아보면 있을 것 같기도 하다. pivotal?? </p>
-<p>그리고 국내기업들도 이를 도입하고 있고, 이를 도입해서 잘 활용도 하고 있으며 지속적으로 도입을 검토하고 시도하고 있는 기업들이 많이 존제 한다. </p>
-<h2 id="MSa란-무엇인가"><a href="#MSa란-무엇인가" class="headerlink" title="MSa란 무엇인가?"></a>MSa란 무엇인가?</h2><h2 id="MSa를-도입하기-전에-고려해-보아야-하는-것"><a href="#MSa를-도입하기-전에-고려해-보아야-하는-것" class="headerlink" title="MSa를 도입하기 전에 고려해 보아야 하는 것"></a>MSa를 도입하기 전에 고려해 보아야 하는 것</h2><h2 id="살펴볼-수-있는-다른-대안들"><a href="#살펴볼-수-있는-다른-대안들" class="headerlink" title="살펴볼 수 있는 다른 대안들"></a>살펴볼 수 있는 다른 대안들</h2><h2 id="왜-많은-기업들이-실패하나"><a href="#왜-많은-기업들이-실패하나" class="headerlink" title="왜 많은 기업들이 실패하나?"></a>왜 많은 기업들이 실패하나?</h2><h2 id="그럼-어떻게-접근해야-하는가"><a href="#그럼-어떻게-접근해야-하는가" class="headerlink" title="그럼 어떻게 접근해야 하는가?"></a>그럼 어떻게 접근해야 하는가?</h2>]]></content>
+      
+      
+        <tags>
+            
+            <tag> AWS </tag>
+            
+            <tag> eventdriven </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Lambda with Typescript</title>
+      <link href="/2022/05/01/Lambda%20with%20Typescript/"/>
+      <url>/2022/05/01/Lambda%20with%20Typescript/</url>
+      
+        <content type="html"><![CDATA[<p>아 배타지만 이제 들어왔다. SAM에서 Lambda Typescript를 지원한다. 이것을 한번 번역해보겠습니다.</p><p><a href="https://aws.amazon.com/blogs/compute/building-typescript-projects-with-aws-sam-cli/">https://aws.amazon.com/blogs/compute/building-typescript-projects-with-aws-sam-cli/</a></p>]]></content>
+      
+      
       <categories>
-        <category>Architecure</category>
+          
+          <category> AWS </category>
+          
       </categories>
-      <tags>
-        <tag>MSA</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Lambda with Typescript</title>
-    <url>/2022/05/01/Lambda%20with%20Typescript/</url>
-    <content><![CDATA[<p>아 배타지만 이제 들어왔다. SAM에서 Lambda Typescript를 지원한다. 이것을 한번 번역해보겠습니다.</p>
-<p><a href="https://aws.amazon.com/blogs/compute/building-typescript-projects-with-aws-sam-cli/">https://aws.amazon.com/blogs/compute/building-typescript-projects-with-aws-sam-cli/</a></p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> Serverless </tag>
+            
+            <tag> Lambda </tag>
+            
+            <tag> AWS </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Serverless Scale</title>
+      <link href="/2022/04/30/Serverless-Scale/"/>
+      <url>/2022/04/30/Serverless-Scale/</url>
+      
+        <content type="html"><![CDATA[<img src="/2022/04/30/Serverless-Scale/hurdle.jpg" class="" title="허들이미지"><p>이번에는 서버리스를 도입하고 운영하기 위해서 어떤 점들을 고려해봐야 하는지에 대해서 작성해 보았습니다. </p><span id="more"></span><p>이번에는 서버리스에 대해서 한번 살펴보고자 한다. 대학교 때부터 이런 이야기를 IT에서 자주 들어왔던 것 같다. 뭔가를 동작하게 하는 것은 쉽지만 잘 동작하게 하는 것은 매우 어려운 일이다. 이것은 특히 회사에서 공감을 많이 하게 되는 말이었다. 회사에서 항상 뭔가를 하다보면 POC&#x2F;BMT 레벨에서는 문제가 없었지만 실제 운영에서는 문제가 생기는 경우를 많이 보았다. 대부분은 생각하지 못했던 예외 케이스와 미리 생각하지 못했던 부하에서 문제많이 생겼다.</p><p>두 번째 하고 싶은 이야기는 언제나 새로운 기술의 도입에는 허들이 있다는 것이다. Spring Boot, JPA, DDD등 모두가 그랬다. JPA를 처음 사용하려고 교육에 갔을 때 강사가 했던 말은 “JPA는 성능이 좋지 않기 때문에 실제 SI환경에서는 사용하지 않습니다.” 였습니다. 이 말을 듣고 실제 이것의 성능이 그렇게 좋지 않다면 외국에서 이것을 많이 사용할까 였습니다. 하지만 JPA를 사용하면서도 성능을 유지하려면 CQRS 및 Query DSL등에 대한 지식도 같이 있어야 성능의 문제를 해결 수 있었습니다. 말씀 드렸다시피 어떤 시도가 성공의 괘도에 오르려면 허들을 넘는 것은 필수 입니다. <strong>허들을 넘지 못하면 새로움은 없습니다.</strong> 또한 대부분의 허들을 넘지 못하는 사람들이 하는 말은 그 기술은 좋지 않다입니다. ㅠㅠ</p><h2 id="서버리스"><a href="#서버리스" class="headerlink" title="서버리스"></a>서버리스</h2><p>서버리스는 말 그래도 서버가 없다는 말이다. 하지만 실제로 서버가 없지는 않겠죠? 이 말은 서버를 별도로 관리할 필요가 없다는 것이다. 서버를 만들 필요도 서버의 최신 버젼을 유지한다거나 서버를 패치해야 할 필요도 없다. 일반적으로 아주 간단하게 말하면 서버의 Scale도 관리할 필요는 없습니다. <strong>하지만 고려해야 할 필요는 있습니다.</strong>.</p><p>많은 CSP등 혹은 K8S도 서버리스에 대한 서비스를 제공하고 있습니다.</p><p>ç</p><p>AWS 서비스들을 보면 그 중심에 Lambda가 있습니다. 당연히 서버리스를 사용해서 서비스를 만든다면 일단 이들에 대해서 정확하게 하는 것이 필요합니다.</p><h3 id="서버리스-도입-및-운영의-장점"><a href="#서버리스-도입-및-운영의-장점" class="headerlink" title="서버리스 도입 및 운영의 장점"></a>서버리스 도입 및 운영의 장점</h3><p>서버리스는 일반적으로 다른 서비스에 비해 일반적인 상황에서 운영에 대해 고려할 것이 적습니다. 실제 시스템의 패치 및 부하에 따른 고려, 또한 시스템의 구성 등에 시간이 적게 들어갑니다. 대표적인 서버리스 compute 컴포넌트인 lambda의 경우를 예를 들어 설명해 보면 Serverless Framework이나 SAM을 활용하면 매우 짧은 시간 안에 시스템의 구성이 가능합니다.</p><p>또한 Dyanmodb &#x2F; Amplify &#x2F; Cognito 등과 같이 사용을 할 때는, Compute 뿐만 아니라 Database &#x2F; Auth들의 구현도 매우 짧은 시간 안에 구현할 수 있습니다.</p><img src="/2022/04/30/Serverless-Scale/2022-04-30T173334.png" class="" title="This is an example image"><h3 id="서버리스를-도입할-때-고려해야-할-것들"><a href="#서버리스를-도입할-때-고려해야-할-것들" class="headerlink" title="서버리스를 도입할 때 고려해야 할 것들"></a>서버리스를 도입할 때 고려해야 할 것들</h3><p>하지만 일반적인 상황에서 서버리스가 매우 빠른 다른 이야기 입니다. 갑작스럽게 부하게 엄청 많이 증가하는 상황이라든지 혹은 엄청 연산이나 처리가 길어지는 경우에는 컨드롤하기 어려운 단점이 존재합니다. 또한 lambda의 경우는 요청 수행시간에 따라 Concurrency가 매우 많은 영향을 받습니다. 또한 기본적으로 Account Quota가 아래와 같이 설정되어 있습니다.</p><table><thead><tr><th>Resource</th><th align="right">Default quota</th><th align="center">Can be increased up to</th></tr></thead><tbody><tr><td>Concurrent executions</td><td align="right">1,000</td><td align="center">Tens of thousands</td></tr><tr><td>Storage for uploaded functions (.zip file archives) and layers. Each function version and layer version consumes storage. <br /><br /> For best practices on managing your code storage, see Monitoring Lambda code storage in the Lambda Operator Guide.</td><td align="right">75 GB</td><td align="center">Terabytes</td></tr><tr><td>Storage for functions defined as container images. These images are stored in Amazon ECR.</td><td align="right">See Amazon ECR service quotas.</td><td align="center"></td></tr><tr><td>Elastic network interfaces per virtual private cloud (VPC)<br />Note<br />This quota is shared with other services, such as Amazon Elastic File System (Amazon EFS). See Amazon VPC quotas.</td><td align="right">250</td><td align="center">Hundreds</td></tr></tbody></table><p>위와 같이 스케일이 제한되어 있기 때문에 특별히 Burst 상황이 생길 여지가 있는 곳에서는 고려해야 할 것 들이 생기게 됩니다. 아래는 특별히 lambda의 부하 및 구성관점에서 어떠한 것들을 고려해야 하는지 알아보도록 하겠다.</p><h4 id="큰-API는-Lambda를-Account로-분리해야-한다"><a href="#큰-API는-Lambda를-Account로-분리해야-한다" class="headerlink" title="큰 API는 Lambda를 Account로 분리해야 한다."></a>큰 API는 Lambda를 Account로 분리해야 한다.</h4><img src="/2022/04/30/Serverless-Scale/2022-04-30T175208.png" class="" title="This is an example image"><p><a href="https://aws.amazon.com/ko/blogs/compute/managing-cross-account-serverless-microservices/">https://aws.amazon.com/ko/blogs/compute/managing-cross-account-serverless-microservices/</a> 참조</p><p>위와 같이 Account로 분리해서 부하를 받아줄 수 있도록 분산해야 합니다. 하지만 이를 위해서 CI&#x2F;CD Pipeline 구성의 복잡도를 포함해야 합니다. 이에 대해서는 아래와 같이 좀더 자세히 기술하도록 하겠습니다.</p><h4 id="짧은-Lambda-수행시간"><a href="#짧은-Lambda-수행시간" class="headerlink" title="짧은 Lambda 수행시간"></a>짧은 Lambda 수행시간</h4><p>1,000 Concurrency는 많은 수이지만 경우에 따라서는 매우 작은 숫자일 수도 있습니다.이 한계 안에서 Lambda를 활용하기 위해서는 Lambda의 수행시간을 가능하면 짧게 가져가야 합니다. 이를 위해서 EDA(Event Driven Architecure)와 함께 Nosql(Dynamodb)를 활용하여 처리시간을 짧게 가져가야 합니다.</p><img src="/2022/04/30/Serverless-Scale/2022-04-30T180532.png" class="" title="This is an example image"><p>참고: <a href="https://aws.amazon.com/ko/blogs/compute/operating-lambda-understanding-event-driven-architecture-part-1/">https://aws.amazon.com/ko/blogs/compute/operating-lambda-understanding-event-driven-architecture-part-1/</a></p><h4 id="Cold-Start"><a href="#Cold-Start" class="headerlink" title="Cold Start"></a>Cold Start</h4><p>Lambda의 경우 기본적으로 내부적으로는 Container를 활용하기 때문에 실제로는 서버가 필요합니다. 실제 요청을 받고 서버가 준비되기 전까지의 시간이 필요하며, 이를 Cold Start라고 합니다. 요청이 매우 빨리 늘어나는 경우에는 Cold Start가 서비스에 영향을 미칠 수도 있습니다. 그렇기 때문에 이를 줄이기 위한 노력이 필요합니다. 여러가지가 있지만 지금은 이것을 위해서 가능한 패키지 되는 용량이 작아야 하며, 가능한 무겁지 않도록 프로그램을 작성해야 하다 정도를 생각하시면 됩니다. 추후 다른 아티클에서 어떻게 Cold Start를 제거 하는지 확인해보도록 하겠습니다.’</p><h4 id="짧은-수행시간을-위한-Tip"><a href="#짧은-수행시간을-위한-Tip" class="headerlink" title="짧은 수행시간을 위한 Tip"></a>짧은 수행시간을 위한 Tip</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> <span class="variable constant_">AWS</span> = <span class="built_in">require</span>(<span class="string">&#x27;aws-sdk&#x27;</span>);</span><br><span class="line"><span class="comment">// http or https</span></span><br><span class="line"><span class="keyword">const</span> http = <span class="built_in">require</span>(<span class="string">&#x27;http&#x27;</span>);</span><br><span class="line"><span class="keyword">const</span> agent = <span class="keyword">new</span> http.<span class="title class_">Agent</span>(&#123;</span><br><span class="line">    <span class="attr">keepAlive</span>: <span class="literal">true</span>,</span><br><span class="line">    <span class="comment">// Infinity is read as 50 sockets</span></span><br><span class="line">    <span class="attr">maxSockets</span>: <span class="title class_">Infinity</span></span><br><span class="line">    &#125;);</span><br><span class="line"></span><br><span class="line"><span class="variable constant_">AWS</span>.<span class="property">config</span>.<span class="title function_">update</span>(&#123;</span><br><span class="line">    <span class="attr">httpOptions</span>: &#123;</span><br><span class="line">    agent</span><br><span class="line">    &#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure><h4 id="Multi-acount-Ci-x2F-cd-구성"><a href="#Multi-acount-Ci-x2F-cd-구성" class="headerlink" title="Multi acount Ci&#x2F;cd 구성"></a>Multi acount Ci&#x2F;cd 구성</h4><h4 id="Lambda의-배포-Dependency의-해결"><a href="#Lambda의-배포-Dependency의-해결" class="headerlink" title="Lambda의 배포 Dependency의 해결"></a>Lambda의 배포 Dependency의 해결</h4>]]></content>
+      
+      
       <categories>
-        <category>AWS</category>
+          
+          <category> AWS </category>
+          
       </categories>
-      <tags>
-        <tag>Serverless</tag>
-        <tag>Lambda</tag>
-        <tag>AWS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Getting Started with Event-Driven Architecture</title>
-    <url>/2022/05/01/Getting%20Started%20with%20Event-Driven%20Architecture/</url>
-    <content><![CDATA[<img src="/2022/05/01/Getting%20Started%20with%20Event-Driven%20Architecture/2022-05-02T080133.png" class="" title="MSA">
-
-<p>참조 : <a href="https://aws.amazon.com/ko/blogs/compute/getting-started-with-event-driven-architecture/">https://aws.amazon.com/ko/blogs/compute/getting-started-with-event-driven-architecture/</a></p>
-<p>간단하게 이벤트 드리븐 아키텍쳐에 대해서 알아봅시다.</p>
-<span id="more"></span>
-
-<p>현대적인 어플리케이션에서 Event Driven 아키텍쳐는 클라우드에서 어플리케이션을 좀 더 쉽게 만들수 있게 해주기 때문에 더욱 중요해지고 있다. Event Driven 아키텍쳐는 서비스들을 decouple 할 수 있게 되므로, 개발 속도를 향상 시키고, 어플리케이션의 디버깅을 좀 더 쉽게 합니다. 또한 이 아키텍쳐는 기능이 여러 팀안에서 확장될 때 병목현상(bottlenect)를 제거하고 이것은 팀이 좀 더 독립적으로 개발을 진행할 수 있도록 합니다.</p>
-<p>프로그램이 어떻게 동작하는가 생각할 수 있는 한 가지 방법은 어플리케이션의 다른곳으로 부터 발생하는 이벤트에 반응하는 시스템으로 보는 것입니다. 이같은 접근은, 이벤트 전달자로써 그것을 둘러쌓고 있는 것들과 시스템의 상호작용에 초점을 맞춥니다. 어플리케이션은 이벤트를 받고 이벤트를 만들어낸다. 애플리케이션으로의 입력과 애플리케이션으로 부터의 출력은 이벤트로써 동작합니다. 이것이 Event Driven 아키텍쳐의 핵심입니다.</p>
-<h2 id="API-Driven-architecture-vs-Event-Driven-architecture"><a href="#API-Driven-architecture-vs-Event-Driven-architecture" class="headerlink" title="API-Driven architecture vs Event-Driven architecture"></a>API-Driven architecture vs Event-Driven architecture</h2><table>
-<thead>
-<tr>
-<th>Commands&#x2F;APIs</th>
-<th>Events</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Synchronous</td>
-<td>Asynchronous</td>
-</tr>
-<tr>
-<td>Has an Intent</br>Driected to a target</td>
-<td>It’s a fact</br>Happened in the past</td>
-</tr>
-<tr>
-<td>“CreateAccount”</br>“AddProduct”</td>
-<td>“AccountCreated”</br>“RoductAdded”</td>
-</tr>
-</tbody></table>
-<p>응답과 요청을 기반으로 하는 API Driven 아키텍쳐는 여러 컴포넌트들이 함께 동작할 수 있게 해주는 애플리케이션을 만드는 일반적인 방법이다. 예를 들어, 주문 API로 부터 주문의 쿼리를 요청한다면, 주문 API는 주문리스트를 반환할 것이다. 이것은 동기적인 아키텍텨의 예제이다. 주문을 요청하는 시스템은 응답을 기다립니다. 응답이 오기 전에는 다른 곳으로 이동할 수가 없습니다. 이같은 접근에서는 명령어를 직접적으로 Target에 보냅니다.(예를 들어, “place this order” 또는 “add this record to the database”).</p>
-<img src="/2022/05/01/Getting%20Started%20with%20Event-Driven%20Architecture/2022-05-02T083202.png" class="" title="sync and async">
-
-<p>이러한 동기화 모델 안에서, 클라이언트는 Service A로 요청을 한다. Service A는 Service B를 호출한다. 그러나 Service A는 계속 진행하거나 이벤트의 응답을 보내기 전에, Service B의 응답을 기다린다.</p>
-<p>비동기인 Event Driven 아키텍쳐에서는 응답 경로가 없습니다. 서비스는 이벤트를 발생시킨 후 즉시 다음으로 이동합니다. 여기서의 Trade-off는 이벤트를 수신했다는 것외에 Service A로 정보를 전달하기 위한 Service B에 대한 직접적인 채널이 없다는 것이다. 그러나 많은 경우에 요청 채널과 응답 채널 간에 명시적인 결합(coupling)이 필요하지 않습니다.</p>
-<p>이벤트는 이미 발생한 어떤 것입니다. 예를 들어, 새로운 계정이 생성되었거나(is created), Amazon S3 버킷으로 아이템이 전송(is dropped)이 된 경우 입니다. 예를 들어, 만약 주문이 되었을 때 이벤트가 발생한다면, 주문이 취소되는 이벤트도 존재할 수 있습니다. 이벤트는 메시징 시스템 또는 데이터베이스와 같은 다양한 것으로부터 가져올 수 있습니다.</p>
-<p>이벤트는 응용 프로그램에서 발생한 사항에 대한 정보를 알려주는 JSON 개체입니다. 이벤트 중심 아키텍처에서 이벤트는 사실을 나타냅니다. 애플리케이션의 각 구성 요소는 변경 사항이 있을 때마다 이벤트를 발생시킵니다. 다른 구성 요소들은 듣고 이를 사용하여 무엇을 할 것인지, 그리고 어떻게 반응할 것인지를 결정합니다.</p>
-<img src="/2022/05/01/Getting%20Started%20with%20Event-Driven%20Architecture/2022-05-02T084558.png" class="" title="event Json example">
-
-<p>위의 이벤트는, Amazon S3 버킷에 이미지가 담겨졌을 때 S3가 발생하는 이벤트 입니다. Event Source는 sam-app-sourcebucket라는 이름을 가진 S3 버킷입니다. 이 버킷에 담겨진 Object는 “brad.jpeg” 입니다.</p>
-<p>요청 기반의 어플리케이션은 요청을 완료하기 위해서 항상 다운스트림 함수에 직접적으로 명령을 전달하고 이것은 강하게 결합이 됩니다. 이것은 어플리케이션에서 오류가 언제 방생하는 것이지 결정하는 것을 어렵게 합니다. 이벤트 기반의 어플리케이션은 다른 서비스나 시스템에서 활용되어지는 이벤트를 발생합니다. 그러나 이벤트 생성하는 쪽에서는 이벤트를 어떠한 소비자(consumer)를 알지 못합니다. 이것은 전형적으로 느슨합 결합의 형태를 가지게 됩니다.</p>
-<p>이벤트를 볼 수 있는 권한을 가진 어떠한 서비스라도 이벤트를 관찰할 수 있습니다. 커피숍의 예제를 생각해본다면 거기에는 커피를 내리고 있는 바리스타가 있고, 그리고 pastries를 만드는 파티쉐가 있습니다. 고객이 커피숍으로 들어오고 그리고 커피를 주문하면 파리스타는 커비를 내리기 시작하고 파티쉐는 아무 행동도 하지 않습니다.</p>
-<p>그러나 만약 고객이 커피숍에 들어와 초콜릿 크로아상을 주문한다면 파티쉐는 초콜릿 크로아상을 만들기 시작합니다. 그리고 바리스타는 아무 행동을 하지 않을 것입니다. 파티쉐는 오직 파티쉐와 관련된 주문만을 관심하고 있고, 바리스타는 오직 커피와 관련된 주문에만 관심을 두고 있습니다.</p>
-<p>아마존과 같은 E-commerce 에플리케이션 관점에서 본다면, 다른 이벤트에 응답을 주엉야 할 각각의 부서들이 있습니다. 아마존에서 Amazon Fresh의 Whole Food를 주문할 수 있다. Amazon Fresh에서 주문은 한다면 이 이벤트를 구독하고 있는 부서에는 그 이벤트를 처리하고 주문을 수행할 것이다.</p>
-<img src="/2022/05/01/Getting%20Started%20with%20Event-Driven%20Architecture/2022-05-04T081857.png" class="" title="event Json example">
-
-<p>이벤트 기반의 아키텍쳐와 커맨드 기반의 아키텍쳐는 각각 다른 방식으로 상태를 저장합니다. 전형적인 커맨드 기반의 아키텍쳐에서는, 컴포넌트들은 각 데이터의 최종상태를 업데이트를 수행합니다. 이벤트 기반의 아키텍쳐에서는 업데이트를 수행할 때 새로운 이벤트가 발생하도록 하면 됩니다. 설명하면 커멘드 기반의 아키텍쳐에서는 업데이트의 최종 업데이트 상태를 가지고 있지만, 이벤트 기반의 아키텍쳐에서는 발생한 모든 이벤트 전체를 가지고 있습니다.</p>
-<h2 id="이벤트-기반-아키텍쳐의-장점"><a href="#이벤트-기반-아키텍쳐의-장점" class="headerlink" title="이벤트 기반 아키텍쳐의 장점"></a>이벤트 기반 아키텍쳐의 장점</h2><h3 id="이벤트의-소스와-Targer를-분리"><a href="#이벤트의-소스와-Targer를-분리" class="headerlink" title="이벤트의 소스와 Targer를 분리"></a>이벤트의 소스와 Targer를 분리</h3><p>많은 어플리케이션들은 각 컴포넌트가 강하게 결합되어 있고 서로가 강하게 의존하는 Monolith로 구성이 됩니다. 이것은 버그가 있고 애플리케이션의 실패하는 곳이 어느 부분인지 정확히 찾아내는 것에서 문제가 되는 것으로 판명되었습니다. 분리된 아키텍쳐는 느슨하게 결합된 서비스나 컴포넌트로 구성이 됩니다. 이벤트 주도적인 분리된 아키텍쳐에서는 이벤트는 누가 응답하는지 알지 못한채로 이벤트를 브로드캐스트 합니다. 이벤트를 수신하는 컴포넌트나 서비스가 이벤트를 처리할 준비가 될 때마다 이벤트를 대기열에 넣고,전달할 수 있기 때문에 이것은 좀 더 확장가능하고 변경에 열려있는 시스템을 개발할 수 있도록 합니다.</p>
-<p>Decoupled 된 아키텍쳐는 팀이 독집적으로 행동할 수 있게 해주고 이는 개발 속도를 증가시킨다. 예를 들어 API를 기반으로 한 통합에서는 만약 내 팀이 다른 팀의 마이크로서비스에서 일어나는 변경에 대해서 알기를 원한다면 나는 나의 서비스를 위해서 그 팀이 만드는 API에 대해서 물어봐야 한다. 이것은 나는 다른 팀과 인증을 적절하게 처리해야 하며, 다른 팀과 API 호출을 위한 구조들에 대한 협의가 필요하다는 것을 의미합니다. 이것은 팀 사이를 왔다갔다하는 것을 야기시키며, 개발속도를 낮춥니다. 이벤트 주도적인 아키텍쳐에서는 마이크로서비스나 이벤트의 라우팅을 처리하고, 인증을 처리해주는 이벤트 라우터(예를 들어, Amazon EventBridge) 로부터 이벤트를 구독합니다.</p>
-<p>Decoupled 어플리케이션은 새로운 기능을 보다 빨리 개발할 수 있게 합니다. 새로운 기능을 추가하는 것과 기존에 있는 기능을 확징하는 것은 이벤트 주도적인 아키텍쳐에서는 보다 간단한 일입니다. 새로운 기능을 실행하고 구독하는 데 필요한 이벤트만 선택하면 되기 때문입니다. 새로운 기능을 추가하기 위해 기존 서비스를 수정할 필요가 없습니다.</p>
-<h3 id="Write-less-code"><a href="#Write-less-code" class="headerlink" title="Write less code"></a>Write less code</h3><p>When you build applications using event-driven architecture, often you write less code because you only need to consider new events, as well as which service is subscribed to those events. For example, if you are building new features for your application, all you have to do is consider the existing events and then add senders and receivers as necessary. In this way, you speed up development time because each functional unit is smaller and there is often less code.</p>
-<h3 id="Better-extensibility"><a href="#Better-extensibility" class="headerlink" title="Better extensibility"></a>Better extensibility</h3><h3 id="Enhancing-team-collaboration"><a href="#Enhancing-team-collaboration" class="headerlink" title="Enhancing team collaboration"></a>Enhancing team collaboration</h3><h2 id="결론"><a href="#결론" class="headerlink" title="결론"></a>결론</h2>]]></content>
+      
+      
+        <tags>
+            
+            <tag> Serverless </tag>
+            
+            <tag> Lambda </tag>
+            
+            <tag> AWS </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>MSA 도입하지 마라</title>
+      <link href="/2022/04/30/MSA%20%EB%8F%84%EC%9E%85%ED%95%98%EC%A7%80%20%EB%A7%88%EB%9D%BC/"/>
+      <url>/2022/04/30/MSA%20%EB%8F%84%EC%9E%85%ED%95%98%EC%A7%80%20%EB%A7%88%EB%9D%BC/</url>
+      
+        <content type="html"><![CDATA[<img src="/2022/04/30/MSA%20%EB%8F%84%EC%9E%85%ED%95%98%EC%A7%80%20%EB%A7%88%EB%9D%BC/2022-04-30T204459.png" class="" title="MSA"><p>이런 이야기를 나도 할 줄은 몰랐다. 살아가다 보면 왠지 어렵지만 해야 될 것 같은 일들이 있다. 그거 안하면 다른 사람들 보다 뒤로 쳐지는 것 같고 그래서 꼭 해야 하는데 너무 어렵고 그리고 어렵게 따라 했는데 나에게 그렇게 큰 영향이 없는 일….</p><p>지금 이야기를 하려고 하는 것이 그런 것 같다. 이제 최근도 아닌 이야기가 되었지만 아키덱쳐 세계에서 큰 화두였다. 그리고 많은 기술력 있는 기업들은 MS를 도입하여 많은 기술적인 장점들을 취했다. 대표적인 기업들이 아마도 Netflix&#x2F;amazon일 것 같다. 그리고 더 찾아보면 있을 것 같기도 하다. pivotal?? </p><p>그리고 국내기업들도 이를 도입하고 있고, 이를 도입해서 잘 활용도 하고 있으며 지속적으로 도입을 검토하고 시도하고 있는 기업들이 많이 존제 한다. </p><h2 id="MSa란-무엇인가"><a href="#MSa란-무엇인가" class="headerlink" title="MSa란 무엇인가?"></a>MSa란 무엇인가?</h2><h2 id="MSa를-도입하기-전에-고려해-보아야-하는-것"><a href="#MSa를-도입하기-전에-고려해-보아야-하는-것" class="headerlink" title="MSa를 도입하기 전에 고려해 보아야 하는 것"></a>MSa를 도입하기 전에 고려해 보아야 하는 것</h2><h2 id="살펴볼-수-있는-다른-대안들"><a href="#살펴볼-수-있는-다른-대안들" class="headerlink" title="살펴볼 수 있는 다른 대안들"></a>살펴볼 수 있는 다른 대안들</h2><h2 id="왜-많은-기업들이-실패하나"><a href="#왜-많은-기업들이-실패하나" class="headerlink" title="왜 많은 기업들이 실패하나?"></a>왜 많은 기업들이 실패하나?</h2><h2 id="그럼-어떻게-접근해야-하는가"><a href="#그럼-어떻게-접근해야-하는가" class="headerlink" title="그럼 어떻게 접근해야 하는가?"></a>그럼 어떻게 접근해야 하는가?</h2>]]></content>
+      
+      
       <categories>
-        <category>Architecure</category>
+          
+          <category> Architecure </category>
+          
       </categories>
-      <tags>
-        <tag>AWS</tag>
-        <tag>eventdriven</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Project To Product 01</title>
-    <url>/2022/05/03/Project%20To%20Product%2001/</url>
-    <content><![CDATA[<img src="/2022/05/03/Project%20To%20Product%2001/2022-05-03T115153.png" class="" title="플로우 지표과 비즈니스 결과 연결하기">
-
-<p>이번에는 서버리스를 도입하고 운영하기 위해서 어떤 점들을 고려해봐야 하는지에 대해서 작성해 보았습니다.</p>
-<span id="more"></span>
-
-<p>위의 그림은 플로우 지표와 비즈니스 지표를 어떻게 연결할 수 있는지를 보여주고 있다. 플로우 지표들은 살펴보았고(플로우 속도, 플로우 효율, 플로우 타입, 플로우 부하), 비즈니스 지표들은 이제 살펴보도록 하겠다. 아래의 표는 간단하게 이를 요약하고 있다.</p>
-<table>
-<thead>
-<tr>
-<th>비즈니스 결과</th>
-<th>측정 방법</th>
-<th>예시</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>가치</td>
-<td>가치 흐름이 생산하는 비즈니스 이득</td>
-<td>매출, 월간 고청 매출, 연간 계약 가치, 월간 활성 사용자</td>
-</tr>
-<tr>
-<td>비용</td>
-<td>비즈니스가 부담하는 가치 흐름 비용</td>
-<td>가치 흐름을 위한 모든 인건비, 운영비, 인프라 비용, 가치 흐름에 할당된 전일제 환산(FTE, Full Time Equivalent)</td>
-</tr>
-<tr>
-<td>품질</td>
-<td>가치 흐름이 생산하는 제품이 고객에게 감지되는 품질</td>
-<td>(고객에게) 드러난 결함, 쌓인 티켓 수, 계약 연장률, 확장률, 순수 고객 추천 지수(NPS)</td>
-</tr>
-<tr>
-<td>행복도</td>
-<td>가치 흐름 구성원의 몰입도</td>
-<td>직원 추천 지수(eNPS), 직원 몰입</td>
-</tr>
-</tbody></table>
-<h2 id="Measuring-Value-가치-측정하기"><a href="#Measuring-Value-가치-측정하기" class="headerlink" title="Measuring Value : 가치 측정하기"></a>Measuring Value : 가치 측정하기</h2><ul>
-<li>측정 지표는 조직에서 사용하는 재무 지표에서 직접 가져와야 한다. </li>
-<li>가치 흐름에 의해 생성된 수익 선행 지표, 즉 세이즈 파이프 라인 성장률, 고객 만족도(예를 들어 NPS)등을 가치 버킷에 넣을 수 있다.</li>
-</ul>
-<h2 id="Value-Stream-Cost-가치-흐름-비용"><a href="#Value-Stream-Cost-가치-흐름-비용" class="headerlink" title="Value Stream Cost : 가치 흐름 비용"></a>Value Stream Cost : 가치 흐름 비용</h2><ul>
-<li>가치 흐름 비용은 특정 제품의 전달과 관련된 모든 비용을 포함한다. 해당 가치 흐름의 전달과 관련된 모든 것을 포함해 TCO(Total Cost of Ownership)을 고려하는 것과 비슷하며 제조업의 ‘가치 흐름별 비용 계산(Costing by value stream)’ 기법과도 유사하다. </li>
-<li>가치 흐름 비용은 직접적인 비용뿐만 아니라 가치 흐름이 사용하는 공유 서비스 비용의 비율도 계산해야 한다. 여기에는 인건비(정직원 또는 계약직), 라이선스 비용, 인프라 비용(내부 또는 외부 호스팅) 등이 포함될 수 있다.</li>
-</ul>
-<h2 id="Value-Stream-Quality-가치-흐름-품질"><a href="#Value-Stream-Quality-가치-흐름-품질" class="headerlink" title="Value Stream Quality : 가치 흐름 품질"></a>Value Stream Quality : 가치 흐름 품질</h2><ul>
-<li>가치 흐름은 고객에게 초점을 두고 있으므로 품질 버킷에는 고객에서 드러나는 종류의 지표를 사용해야 한다. 드러난 결함 뿐만 아니라 발생한 사건의 수, 티켓 개수, 기타 고객 만족 지표도 품질 버킷에 포함될 수 있다. 결함 수명(Defect Aging: 결함 인지부터 해소까지의 기간) 및 변경 성공률과 같이 고객에게 인지되지 않는 품질 지표는 품질 문제의 중요한 선행 지표이기는 하지만 플로우 프레임워크는 고개과 비즈니스에 가시적인 지표에 집중하므로 중요는 한 단계 아래이다.</li>
-</ul>
-<h2 id="Value-Stream-Happiness"><a href="#Value-Stream-Happiness" class="headerlink" title="Value Stream Happiness"></a>Value Stream Happiness</h2><ul>
-<li>가치 흐름의 생산성은 화면 디자인, 자동화 테스트 작성 등 가치 창출 활동에 달려 있다. 앞으로 인공 지능이 테스트 코드를 자동으로 작성하는 것과 같이 자동화되는 분야가 늘어나더라도, 생산성은 언제나 팀에서 수행하는 창조적 작업에 달려 있음을 기술 기업들은 오래전부터 잘 알고 있었다. </li>
-<li>성과가 좋은 조직은 이미 eNPS(직원 추천 지수)와 같은 지표를 통해 직원 참여도를 측정한다. Accelerate는 IT 조직에서 좋은 성과를 내느 조직의 직원이 그들의 조직을 일하기 좋은 곳으로 추천하는 경향이 2.2배 더 높음을 발표했다.</li>
-</ul>
-<h2 id="Value-Stream-Dashboards"><a href="#Value-Stream-Dashboards" class="headerlink" title="Value Stream Dashboards"></a>Value Stream Dashboards</h2><img src="/2022/05/03/Project%20To%20Product%2001/ValueStreamDashboards.png" class="" title="플로우 지표과 비즈니스 결과 연결하기">
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> MSA </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>second</title>
+      <link href="/2022/04/30/second/"/>
+      <url>/2022/04/30/second/</url>
+      
+        <content type="html"><![CDATA[<p>ㅋㅋㅋㅋ 이거는 두 번째 그거 입니다.</p><p>여기서 수정을 할 수 있구나….</p><img src="/2022/04/30/second/example.jpeg" class="" title="This is an example image"><img src="/2022/04/30/second/2022-04-30T091154.png" class="" title="This is an example image">]]></content>
+      
+      
       <categories>
-        <category>Project To Product</category>
+          
+          <category> Blog </category>
+          
+          <category> Hexo </category>
+          
       </categories>
-      <tags>
-        <tag>Culture</tag>
-        <tag>ProjectToProduct</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Serverless Project Example</title>
-    <url>/2022/05/08/Serverless%20Project%20Example/</url>
-    <content><![CDATA[<p><a href="https://github.com/awsrun/aws-microservices">https://github.com/awsrun/aws-microservices</a></p>
-<p><a href="https://www.youtube.com/watch?v=U5GZNt0iMZY">https://www.youtube.com/watch?v=U5GZNt0iMZY</a></p>
-<p><a href="https://www.youtube.com/watch?v=ttJAIQf7cTw">https://www.youtube.com/watch?v=ttJAIQf7cTw</a></p>
-<p>매우 좋은 셈플인 것 같다 이것을 참고로 뭔가를 하나 만들어봐야 겠다.</p>
-<span id="more"></span>
-
-<p><img src="/122677923-1f72be80-d1ed-11eb-9a0f-d267756495e5-1981060.PNG" alt="122677923-1f72be80-d1ed-11eb-9a0f-d267756495e5"></p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> Github </tag>
+            
+            <tag> blog </tag>
+            
+            <tag> 헥소 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>첫 번째 글</title>
+      <link href="/2022/04/28/%EC%B2%AB-%EB%B2%88%EC%A7%B8-%EA%B8%80/"/>
+      <url>/2022/04/28/%EC%B2%AB-%EB%B2%88%EC%A7%B8-%EA%B8%80/</url>
+      
+        <content type="html"><![CDATA[<p>본문이 이렇게 있을 때 여기까지만 인덱스 페이지에 나타납니다.</p><span id="more"></span><p>여기서부턴 인덱스에 안나옵니다.</p>]]></content>
+      
+      
       <categories>
-        <category>AWS</category>
+          
+          <category> Blog </category>
+          
+          <category> Hexo </category>
+          
       </categories>
-      <tags>
-        <tag>Serverless</tag>
-        <tag>Lambda</tag>
-        <tag>AWS</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> Github </tag>
+            
+            <tag> blog </tag>
+            
+            <tag> 헥소 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2022/04/28/hello-world/"/>
+      <url>/2022/04/28/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
 </search>
