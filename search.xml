@@ -19,26 +19,6 @@
       </tags>
   </entry>
   <entry>
-    <title>second</title>
-    <url>/2022/04/30/second/</url>
-    <content><![CDATA[<p>ㅋㅋㅋㅋ 이거는 두 번째 그거 입니다.</p>
-<p>여기서 수정을 할 수 있구나….</p>
-<img src="/2022/04/30/second/example.jpeg" class="" title="This is an example image">
-
-<img src="/2022/04/30/second/2022-04-30T091154.png" class="" title="This is an example image">
-]]></content>
-      <categories>
-        <category>Blog</category>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>Github</tag>
-        <tag>blog</tag>
-        <tag>헥소</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Serverless Scale</title>
     <url>/2022/04/30/Serverless-Scale/</url>
     <content><![CDATA[<img src="/2022/04/30/Serverless-Scale/hurdle.jpg" class="" title="허들이미지">
